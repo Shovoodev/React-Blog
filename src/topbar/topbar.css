@@ -16,6 +16,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .topIcon {
     font-size: 20px;
     margin-right: 10px;
@@ -50,4 +51,5 @@
     cursor: pointer;
     margin-right: 15px; 
     cursor: pointer;
+    padding-right: 10px;
 }

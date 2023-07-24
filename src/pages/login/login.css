@@ -1,0 +1,49 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( 
+    rgba(255,255,255, 0.5)
+    rgba(255,255,255, 0.5)
+    ), url(https://c4.wallpaperflare.com/wallpaper/917/810/553/cool-and-beautiful-nature-desktop-wallpaper-image-1680%C3%971050-wallpaper-preview.jpg);
+    background-size: cover;
+}
+.loginTitle {
+    font-size: 50px;
+}
+.loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginForm > label {
+    margin: 10px 0;
+}
+.loginForm > input {
+    padding: 10px;
+    border-color: white;
+    border: none;
+}
+.loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightseagreen;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
