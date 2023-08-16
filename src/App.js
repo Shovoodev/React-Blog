@@ -28,6 +28,7 @@ function App() {
       <Route exact path="/settings" element={<Settings/>}/>
       <Route exact path="/login" element={<Login/>}/>
       <Route exact path="/post/:postId" element={<Single/>}/>
+
         </Routes> 
     </Router>
   );

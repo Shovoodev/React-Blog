@@ -1,0 +1,57 @@
+.apply_all {
+    display: flex; 
+    flex-direction: column; 
+gap: 0.5rem;  
+}
+.main_dev {
+    padding: 1rem; 
+    max-width: 48rem; 
+}
+.form {
+    display: flex; 
+padding-top: 1rem;
+padding-bottom: 1rem; 
+margin-top: 1rem; 
+flex-direction: column; 
+gap: 1.25rem; 
+border-top-width: 1px; 
+}
+.submit_btn {
+ padding: 0.75rem; 
+font-weight: 700; 
+color: #ffffff; 
+background-color: #047857; 
+border: 1px solid;
+padding: 10px;
+box-shadow: 5px 10px;
+}
+.submit_btn:hover {
+    background-color: #043e06;
+  color: white;
+}
+.upper_padding{
+    padding-top: 10px;
+}
+.span_text{
+    color: #047857;
+
+}
+.taxtarea {
+    height: 8rem; 
+    padding-top: 0.5rem;
+padding-bottom: 0.5rem; 
+padding-left: 1.5rem;
+padding-right: 1.5rem; 
+border-width: 1px; 
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+}
+.text_massage{
+    display: flex;
+    flex-direction: column; 
+    gap: 0.5rem;  
+    justify-content: center;
+}
+.error_massage {
+    display: flex; 
+flex-direction: column; 
+}

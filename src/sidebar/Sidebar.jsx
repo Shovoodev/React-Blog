@@ -1,4 +1,6 @@
+import ContactUs from "../contactUs/ContactUs"
 import './sidebar.css'
+
 
 export default function Sidebar() {
   return (
@@ -28,6 +30,9 @@ export default function Sidebar() {
         <i className="sidebarIcon fa-brands fa-twitter"></i>
         <i className="sidebarIcon fa-brands fa-instagram"></i>
       </div>
+      </div>
+      <div>
+        <ContactUs/>
       </div>
     </div>
   )
