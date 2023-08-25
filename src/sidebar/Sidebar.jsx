@@ -7,9 +7,8 @@ export default function Sidebar() {
     <div className='sidebar'>
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
-        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"
-         alt="" />
-         <p>i am a frontend web developer . work with react , javascripts </p>
+         <p className="about-me">Hello, I'm toukir islam shovo, a frontend developer passionate about crafting engaging digital experiences. Proficient in JavaScript, framework like react and next js  . I bring designs to life while ensuring seamless functionality across devices. My grasp of backend basics, including databases and APIs, adds depth to my skills.
+</p>
       </div>
       <div className="sidebarItem">
       <span className="sidebarTitle">CATAGORIES</span>
