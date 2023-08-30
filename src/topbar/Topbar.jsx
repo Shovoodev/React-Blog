@@ -25,6 +25,9 @@ export default function Topbar() {
             <Link className='link' to="/write">WRITE</Link>
             </li>
             <li className='topListItem'>
+            <Link className='link' to="/todolist">TO-DO-LIST</Link>
+            </li>
+            <li className='topListItem'>
               {user && "LOGOUT"}
             </li>
           </ul>

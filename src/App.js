@@ -14,6 +14,7 @@ import {
 import Post from "./post/Post";
 import SinglePost from "./singlePost/SinglePost";
 import Posts from "./posts/Posts";
+import ToDoList from "./todolists/ToDoList";
 
 function App() {
   const user = true;
@@ -28,7 +29,7 @@ function App() {
       <Route exact path="/settings" element={<Settings/>}/>
       <Route exact path="/login" element={<Login/>}/>
       <Route exact path="/post/:postId" element={<Single/>}/>
-
+      <Route exact path="/todolist" element={<ToDoList/>}/>
         </Routes> 
     </Router>
   );

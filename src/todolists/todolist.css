@@ -1,0 +1,81 @@
+.box {
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+:root {
+    --color-light: white;
+    --color-dark: #212121;
+    --color-signal: #fab700;
+    
+    --color-background: var(--color-light);
+    --color-text: var(--color-dark);
+    --color-accent: var(--color-signal);
+    
+    --size-bezel: .5rem;
+    --size-radius: 4px;
+    
+    line-height: 1.4;
+    
+    font-family: 'Inter', sans-serif;
+    font-size: calc(.6rem + .4vw);
+    color: var(--color-text);
+    background: var(--color-background);
+    font-weight: 300;
+    padding: 0 calc(var(--size-bezel) * 3);
+  }
+ 
+ .input__field
+ {
+  box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border: 3px solid currentColor;
+    padding: calc(var(--size-bezel) * 1.5) var(--size-bezel);
+    color: currentColor;
+    background: transparent;
+    border-radius: var(--size-radius);
+}
+.input__field:focus {
+   
+    background-color: lightblue;
+  }
+  .label {
+    display: block;
+    margin-top: 1em;
+  }
+  .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 28px;
+    text-size-adjust: var(--color-background);
+}
+.button:hover {
+    background-color: whitesmoke; /* Green */
+    color: green
+  }
+  p {
+    font-family: Arial;
+  }
+  .appendlist {
+    background: #F2F2F2;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    height: 2rem;
+    width: 100%;
+  }
+  .button2 {
+    background: #DFE16C;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: black;
+    font-size: .55rem;
+    font-weight: 600;
+    width: 10em;
+    height: 2.5em;
+}
