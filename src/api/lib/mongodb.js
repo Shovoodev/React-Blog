@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const connectDB = async () => {
+/*const connectDB = async () => {
   try {
     if (mongoose.connection.readyState === 0) {
       await mongoose.connect(process.env.MONGODB_URL);
@@ -9,6 +9,19 @@ const connectDB = async () => {
   } catch (error) {
     console.log(error);
   }
-};
+};*/
 
 export default connectDB;
+
+const app = express()
+ mongoose.connect(process.env.MONGODB_URL,{
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+ })
+ const con= mongoose.connection
+try{
+    con.on('open',() => console.log('db connected'))
+} catch(error){
+     console.log(error)
+}
+ app.use(cors({origin:"*"}))
